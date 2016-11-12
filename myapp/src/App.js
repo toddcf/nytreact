@@ -9,13 +9,24 @@ class App extends Component {
 			<div className="App">
 				<div className="App-header">
 					<img src={logo} className="App-logo" alt="logo" />
-					<h2>New York Times Article Scrubber</h2>
+					<h1>New York Times Article Scrubber</h1>
 					
 					<h3>Search for and annotate articles of interest.</h3>
 				</div>
-				<p className="App-intro">
-					To get started, edit <code>src/App.js</code> and save to reload.
-				</p>
+				
+				<div className="boxes">
+					<h3>Search</h3>
+				</div>
+
+				<div className="boxes">
+					<h3>Results</h3>
+				</div>
+
+				<div className="boxes">
+					<h3>Saved</h3>
+				</div>
+
+				
 			</div>
 		);
 	}

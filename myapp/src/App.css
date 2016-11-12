@@ -22,3 +22,11 @@
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
 }
+
+.boxes {
+	width: 70%;
+	border: 5px;
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+}
